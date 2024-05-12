@@ -72,14 +72,6 @@
   "vim.leader": "<space>",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<C-j>"],
-      "after": ["<C-w>", "j"]
-    },
-    {
-      "before": ["<C-k>"],
-      "after": ["<C-w>", "k"]
-    },
-    {
       "before": ["<C-h>"],
       "after": ["<C-w>", "h"]
     },
@@ -88,8 +80,13 @@
       "after": ["<C-w>", "l"]
     },
     {
-      "before": ["<leader>", "e"],
+      "before": ["<C-k>"],
       "commands": ["workbench.action.nextEditor"],
+      "args": []
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.previousEditor"],
       "args": []
     },
     {
@@ -128,5 +125,6 @@
       "commands": ["editor.action.outdentLines"],
       "after": ["gv"]
     }
-  ]
+  ],
+  "vim.enableNeovim": true
 }

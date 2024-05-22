@@ -65,6 +65,11 @@
     {
       "before": ["j", "j"],
       "after": ["<Esc>"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": [":w"],
+      "after": ["<Esc>"]
     }
   ],
   "vim.sneak": true,
@@ -91,11 +96,13 @@
     },
     {
       "before": ["<leader>", "s"],
-      "commands": [":w"]
+      "commands": [":w"],
+      "after": ["<Esc>"]
     },
     {
       "before": ["<leader>", "q"],
-      "commands": [":q"]
+      "commands": [":q"],
+      "after": ["<Esc>"]
     },
     {
       "before": ["<leader>", "o"],
@@ -124,7 +131,13 @@
       "before": ["<"],
       "commands": ["editor.action.outdentLines"],
       "after": ["gv"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": [":w"],
+      "after": ["<Esc>"]
     }
   ],
-  "vim.enableNeovim": true
+  "vim.enableNeovim": true,
+  "vim.smartRelativeLine": true
 }

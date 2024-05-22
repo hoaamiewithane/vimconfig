@@ -37,6 +37,8 @@ Plug 'tpope/vim-commentary'
 let mapleader=" "
 set easymotion
 map <Leader> <Plug>(easymotion-prefix)
+set relativenumber
+set surround
 
 " Map jj and jk to <Esc>
 inoremap jj <Esc>
@@ -57,7 +59,6 @@ nnoremap <c-k> :tabn<cr>
 " Save and quit file
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :w<CR>
-inoremap <leader>s <Esc>:w<CR>
 
 " Open new line
 nnoremap <leader>o o<Esc>

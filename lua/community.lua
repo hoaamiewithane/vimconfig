@@ -16,4 +16,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.indent.indent-blankline-nvim" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
 }

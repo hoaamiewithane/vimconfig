@@ -19,4 +19,6 @@ return {
   { import = "astrocommunity.indent.indent-blankline-nvim" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
 }
